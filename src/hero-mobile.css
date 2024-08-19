@@ -1,0 +1,52 @@
+@media (max-width: 1140px) {
+    .fella-card-container, .fella-overview {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .fella-hero-tagline, .fella-tagline {
+        width: 100%;
+    }
+
+    .fella-hero-cta {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fella-card-container, .fella-overview {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fella-hero-inner {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr max-content;
+        height: 100%;
+    }
+
+    .fella-hero-title {
+        position: initial;
+        text-align: center;
+    }
+
+    .fella-headline, .fella-hero-headline {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fella-hero-text {
+        justify-content: center;
+    }
+
+    .fella-hero-image-inner {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 400px;
+        min-height: 400px;
+    }
+
+    .fella-card-cta {
+        grid-template-columns: 1fr;
+        margin-top: 20px !important;
+    }
+}

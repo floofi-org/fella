@@ -1,0 +1,125 @@
+.fella-hero {
+    height: calc(100vh - 64px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fella-hero-inner {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    width: 100%;
+}
+
+.fella-hero-image {
+    text-align: center;
+}
+
+.fella-hero-text {
+    display: flex;
+    align-items: center;
+}
+
+.fella-hero-headline, .fella-headline {
+    color: var(--fella-text-main);
+    font-weight: 700;
+    letter-spacing: -0.066875rem;
+    line-height: 3.5rem;
+    font-size: 3rem;
+    width: 400px;
+}
+
+.fella-hero-title {
+    z-index: 2;
+    position: absolute;
+}
+
+.fella-hero-tagline, .fella-tagline {
+    width: 400px;
+    margin-top: 30px;
+    color: var(--fella-text-secondary);
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 1.25rem;
+    text-wrap: balance;
+}
+
+.fella-hero-image-inner {
+    width: 40vw;
+    height: 40vw;
+    margin-left: 35vw;
+}
+
+.fella-hero-background-path {
+    filter: blur(50px);
+    opacity: .5;
+    animation-name: hero;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    transform: rotate(0deg);
+    transform-origin: center;
+}
+
+@keyframes fella-hero-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.fella-hero-cta-buttons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.fella-hero-cta-left {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.fella-hero-cta-right {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.fella-hero-cta-orgs {
+    color: var(--fella-text-secondary);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: -.32px;
+    flex: 1;
+    flex-basis: 100%;
+}
+
+.fella-hero-cta, .fella-cta {
+    font-weight: initial;
+    letter-spacing: initial;
+    margin-top: 30px;
+    width: max-content;
+}
+
+.fella-hero-cta-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -.96px;
+    text-wrap: balance;
+    color: var(--fella-text-secondary);
+    flex: 1;
+    flex-basis: 100%;
+}
+
+.fella-hero-cta-title-focus, .fella-hero-cta-orgs-focus {
+    font-weight: 600;
+    color: var(--fella-text-main);
+}

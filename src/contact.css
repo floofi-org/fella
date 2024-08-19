@@ -1,0 +1,80 @@
+.fella-contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.fella-contact-secondary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 32px;
+}
+
+.fella-contact-grid-item {
+    padding: 20px;
+}
+
+.fella-contact-grid-item-icon {
+    width: 52px;
+    height: 52px;
+}
+
+.fella-contact-grid-item-title {
+    margin-top: 20px;
+    color: hsl(0 0 93%);
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -1.28px;
+}
+
+.fella-contact-grid-item-text {
+    color: hsl(0 0 63%);
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.fella-contact-grid-item-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 16px;
+}
+
+.fella-contact-grid-item-button {
+    width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fella-contact-grid-secondary-button {
+    width: max-content;
+}
+
+.fella-contact-grid-item-secondary {
+    margin-top: 20px;
+    color: hsl(0 0 63%);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.fella-contact-grid-item-secondary b {
+    font-weight: 600;
+    letter-spacing: -0.32px;
+    color: hsl(0 0 93%);
+}
+
+.fella-contact-title {
+    font-size: 3.875rem;
+    line-height: 1.25rem;
+    font-weight: 1000;
+}
+
+.fella-contact-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,9 @@
+@media (max-width: 900px) {
+    .fella-contact-grid, .fella-contact-secondary {
+        grid-template-columns: 1fr;
+    }
+
+    .fella-contact-grid-item-button.fella-btn-secondary {
+        display: none;
+    }
+}

@@ -1,0 +1,38 @@
+.fella-error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    inset: 0;
+    position: fixed;
+    z-index: 9;
+    text-align: center;
+    background-color: var(--fella-bg-main);
+}
+
+.fella-error-icon {
+    width: 196px;
+    height: 196px;
+}
+
+.fella-error-btn {
+    margin: 12px auto 24px;
+    cursor: pointer;
+}
+
+.fella-error-title {
+    color: var(--fella-text-main);
+    margin: 64px 0 8px;
+    font-weight: 700;
+    letter-spacing: -0.066875rem;
+    line-height: 3.5rem;
+    font-size: 3rem;
+}
+
+.fella-error-message {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin: 12px 0;
+    color: var(--fella-text-secondary);
+    height: 48px;
+}

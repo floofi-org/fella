@@ -1,0 +1,31 @@
+.fella-list-item {
+    border-bottom: 1px solid var(--fella-border-plain);
+}
+
+.fella-list-item:nth-last-child(1) {
+    border-bottom: none;
+}
+
+.fella-list-item-lg {
+    padding: 10px 30px;
+}
+
+.fella-list-link {
+    cursor: pointer;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.fella-list-link:hover {
+    background-color: var(--fella-list-hover);
+}
+
+.fella-list-link:nth-child(1) {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.fella-list-link:nth-last-child(1) {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

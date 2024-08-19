@@ -1,0 +1,17 @@
+.fella-header {
+    height: max-content;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 9;
+    text-align: center;
+    justify-content: center;
+    min-height: 48px;
+}
+
+.fella-header-btn {
+    height: 32px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+}

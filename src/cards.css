@@ -1,0 +1,96 @@
+.fella-card {
+    border: 1px solid var(--fella-border-plain);
+    background-color: transparent;
+    border-radius: 10px;
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.fella-card-header {
+    color: hsl(0, 0%, 63%);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    flex-basis: 100%;
+}
+
+.fella-card-content {
+    flex: 1;
+    flex-basis: 100%;
+    color: hsl(0, 0%, 93%);
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: -.4px;
+    font-weight: 600;
+    text-wrap: balance;
+}
+
+.fella-card-content-small {
+    font-size: 1rem;
+}
+
+.fella-card-animated {
+    transition: transform 150ms ease;
+}
+
+.fella-card-animated:hover {
+    transform: scale(1.05);
+}
+
+.fella-card-bg {
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0;
+    background-image: radial-gradient(circle, rgba(37,37,37,1) 0%, rgba(0,0,0,1) 40%);
+    background-size: 700px 700px;
+    background-position: -700px -700px;
+    background-repeat: no-repeat;
+    transition: opacity 150ms ease;
+    z-index: 2;
+    margin: -20px;
+}
+
+.fella-card-inner {
+    z-index: 5;
+    text-decoration: inherit;
+    color: inherit;
+    gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: start;
+}
+
+.fella-card-xl {
+    padding: 48px;
+    margin-top: 50px;
+}
+
+.fella-card-cta {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-gap: 80px;
+}
+
+.fella-card-lg {
+    padding: 20px 30px;
+}
+
+.fella-card-sm {
+    padding: 20px;
+}
+
+.fella-card-modern {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: start;
+    gap: 16px;
+}
+
+.fella-card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}

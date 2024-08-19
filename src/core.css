@@ -1,0 +1,66 @@
+@font-face {
+    src: url("../font.woff2");
+    font-family: "Geist Sans";
+    font-weight: 400;
+}
+
+html, body {
+    margin: 0;
+    background-color: var(--fella-bg-main);
+    color: var(--fella-text-main);
+    font-family: "Geist Sans", sans-serif;
+    text-rendering: optimizeLegibility;
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+blockquote {
+    border-left: 2px solid currentColor;
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+.fella-limited-width {
+    max-width: 768px;
+}
+
+* {
+    box-sizing: content-box;
+    touch-action: manipulation;
+    overflow-wrap: anywhere;
+}
+
+.fella-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1080px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.fella-padded {
+    padding-bottom: 90px;
+    min-height: 100vh;
+}
+
+.fella-escape {
+    margin-top: 64px;
+}
+
+.fella-section {
+    padding-top: 30px;
+}
+
+.fella-section a[href].link, .fella-section .fella-section-linked a[href],
+.fella-section.fella-section-linked a[href] {
+    color: inherit;
+}
+
+.fella-section a[href].link:hover, .fella-section .fella-section-linked a[href]:hover,
+.fella-section.fella-section-linked a[href]:hover {
+    opacity: .75;
+}

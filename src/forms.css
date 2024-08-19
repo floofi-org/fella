@@ -1,0 +1,30 @@
+.fella-form-control {
+    font-family: inherit;
+    font-size: inherit;
+    border: 1px solid var(--fella-border);
+    color: var(--fella-text-main);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--fella-bg-secondary);
+    outline: none !important;
+    width: 512px;
+    max-width: 80vw;
+}
+
+.fella-form-control::placeholder, .fella-form-control.default {
+    color: var(--fella-text-secondary);
+}
+
+.fella-form-control:hover, .fella-form-control:focus {
+    background-color: var(--fella-bg-secondary-dim);
+}
+
+.fella-form-header {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.fella-form label {
+    margin-top: 20px;
+    display: block;
+}

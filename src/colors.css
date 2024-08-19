@@ -1,0 +1,70 @@
+:root {
+    --fella-bg-main: #000;
+    --fella-bg-secondary: #0a0a0a;
+    --fella-bg-secondary-dim: #1f1f1f;
+    --fella-text-main: #ededed;
+    --fella-text-secondary: #a1a1a1;
+    --fella-text-tertiary: #888;
+    --fella-text-dim: #ccc;
+    --fella-border: #ffffff23;
+    --fella-border-dim: #ffffff19;
+    --fella-border-vercel: #5e5e5e;
+    --fella-border-plain: #2e2e2e;
+
+    --fella-list-hover: #fffff0c;
+
+    --fella-badge-notice-text: #52a8ff;
+    --fella-badge-notice-bg: #10233d;
+
+    --fella-positive-rgb: 0, 114, 245;
+    --fella-positive-0: rgba(var(--fella-positive-rgb), 0);
+    --fella-positive-25: rgba(var(--fella-positive-rgb), .25);
+    --fella-positive-50: rgba(var(--fella-positive-rgb), .5);
+    --fella-positive-75: rgba(var(--fella-positive-rgb), .75);
+    --fella-positive-100: rgb(var(--fella-positive-rgb));
+    --fella-positive-brighter-1-rgb: 61, 147, 245;
+    --fella-positive-brighter-1: rgb(var(--fella-positive-brighter-1-rgb));
+    --fella-positive-brighter-2-rgb: 122, 180, 245;
+    --fella-positive-brighter-2: rgb(var(--fella-positive-brighter-2-rgb));
+    --fella-positive-brighter-2-33: rgb(var(--fella-positive-brighter-2-rgb), .33);
+    --fella-positive-brighter-2-0: rgb(var(--fella-positive-brighter-2-rgb), 0);
+
+    --fella-warning-rgb: 255, 178, 36;
+    --fella-warning-0: rgba(var(--fella-warning-rgb), 0);
+    --fella-warning-25: rgba(var(--fella-warning-rgb), .25);
+    --fella-warning-50: rgba(var(--fella-warning-rgb), .5);
+    --fella-warning-75: rgba(var(--fella-warning-rgb), .75);
+    --fella-warning-100: rgb(var(--fella-warning-rgb));
+    --fella-warning-brighter-1-rgb: 255, 201, 99;
+    --fella-warning-brighter-1: rgb(var(--fella-warning-brighter-1-rgb));
+    --fella-warning-brighter-2-rgb: 255, 223, 163;
+    --fella-warning-brighter-2: rgb(var(--fella-warning-brighter-2-rgb));
+    --fella-warning-brighter-2-33: rgb(var(--fella-warning-brighter-2-rgb), .33);
+    --fella-warning-brighter-2-0: rgb(var(--fella-warning-brighter-2-rgb), 0);
+
+    --fella-negative-rgb: 229, 72, 77;
+    --fella-negative-0: rgba(var(--fella-negative-rgb), 0);
+    --fella-negative-25: rgba(var(--fella-negative-rgb), .25);
+    --fella-negative-50: rgba(var(--fella-negative-rgb), .5);
+    --fella-negative-75: rgba(var(--fella-negative-rgb), .75);
+    --fella-negative-100: rgb(var(--fella-negative-rgb));
+    --fella-negative-brighter-1-rgb: 230, 129, 132;
+    --fella-negative-brighter-1: rgb(var(--fella-negative-brighter-1-rgb));
+    --fella-negative-brighter-2-rgb: 230, 186, 187;
+    --fella-negative-brighter-2: rgb(var(--fella-negative-brighter-2-rgb));
+    --fella-negative-brighter-2-33: rgb(var(--fella-negative-brighter-2-rgb), .33);
+    --fella-negative-brighter-2-0: rgb(var(--fella-negative-brighter-2-rgb), 0);
+
+    --fella-neutral-rgb: 142, 142, 142;
+    --fella-neutral-0: rgba(var(--fella-neutral-rgb), 0);
+    --fella-neutral-25: rgba(var(--fella-neutral-rgb), .25);
+    --fella-neutral-50: rgba(var(--fella-neutral-rgb), .5);
+    --fella-neutral-75: rgba(var(--fella-neutral-rgb), .75);
+    --fella-neutral-100: rgb(var(--fella-neutral-rgb));
+    --fella-neutral-brighter-1-rgb: 206, 206, 206;
+    --fella-neutral-brighter-1: rgb(var(--fella-neutral-brighter-1-rgb));
+    --fella-neutral-brighter-2-rgb: 255, 255, 255;
+    --fella-neutral-brighter-2: rgb(var(--fella-neutral-brighter-2-rgb));
+    --fella-neutral-brighter-2-33: rgb(var(--fella-neutral-brighter-2-rgb), .33);
+    --fella-neutral-brighter-2-0: rgb(var(--fella-neutral-brighter-2-rgb), 0);
+}
