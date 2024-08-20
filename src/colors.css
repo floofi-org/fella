@@ -7,11 +7,15 @@
     --fella-text-tertiary: #888;
     --fella-text-dim: #ccc;
     --fella-border: #ffffff23;
+    --fella-border-bold: #ffffff3d;
     --fella-border-dim: #ffffff19;
     --fella-border-vercel: #5e5e5e;
     --fella-border-plain: #2e2e2e;
 
     --fella-list-hover: #ffffff0c;
+    --fella-form-placeholder: #8f8f8f7f;
+    --fella-form-outline: #3d3d3d;
+    --fella-form-border: #a0a0a0;
 
     --fella-badge-notice-text: #52a8ff;
     --fella-badge-notice-bg: #10233d;

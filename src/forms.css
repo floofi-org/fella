@@ -1,22 +1,62 @@
 .fella-form-control {
     font-family: inherit;
-    font-size: inherit;
-    border: 1px solid var(--fella-border);
-    color: var(--fella-text-main);
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: var(--fella-bg-secondary);
     outline: none !important;
     width: 512px;
     max-width: 80vw;
+    color: var(--fella-text-main);
 }
 
-.fella-form-control::placeholder, .fella-form-control.default {
-    color: var(--fella-text-secondary);
+.fella-form-control.default, .fella-form-control::placeholder {
+    color: var(--fella-form-placeholder);
 }
 
-.fella-form-control:hover, .fella-form-control:focus {
-    background-color: var(--fella-bg-secondary-dim);
+input.fella-form-control, input.fella-form-control:hover, input.fella-form-control:focus,
+select.fella-form-control, select.fella-form-control:hover, select.fella-form-control:focus {
+    padding: 0 18px;
+    height: 40px;
+    font: inherit;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: var(--fella-bg-secondary);
+    border-radius: 6px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 0 1px var(--fella-border);
+    transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+textarea.fella-form-control, textarea.fella-form-control:hover, textarea.fella-form-control:focus {
+    padding: 9px 18px;
+    font: inherit;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: var(--fella-bg-secondary);
+    border-radius: 6px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 0 1px var(--fella-border);
+    transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+input.fella-form-control:focus, select.fella-form-control:focus, textarea.fella-form-control:focus {
+    border-color: var(--fella-form-border);
+    box-shadow: 0 0 0 3px var(--fella-form-outline);
+}
+
+select.fella-form-control:hover:not(:focus) {
+    box-shadow: 0 0 0 1px var(--fella-border-bold);
+}
+
+select.fella-form-control {
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' style='stroke-linecap:round;stroke-linejoin:round;'><path d='M6,9L12,15L18,9' style='stroke:hsl(0,0%,63%);stroke-width:1.5px;'/></svg>");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.75rem) center !important;
+    background-size: 18px;
+    -moz-appearance:none !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+}
+
+select.fella-form-control:hover {
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' style='stroke-linecap:round;stroke-linejoin:round;'><path d='M6,9L12,15L18,9' style='stroke:hsl(0,0%,93%);stroke-width:1.5px;'/></svg>");
 }
 
 .fella-form-header {
