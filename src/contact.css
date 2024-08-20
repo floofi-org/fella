@@ -45,8 +45,8 @@
 
 .fella-contact-grid-item-button {
     width: max-content;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 }
 
 .fella-contact-grid-secondary-button {

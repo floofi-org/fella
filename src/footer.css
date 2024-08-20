@@ -52,16 +52,16 @@
     text-align: left;
     margin-right: auto;
     width: max-content;
-    padding: 8px;
+    padding: 8px !important;
     margin-left: -8px;
-    height: 18px;
-    box-shadow: none;
+    height: 18px !important;
+    box-shadow: none !important;
     display: flex;
     gap: 6px;
     align-items: center;
     flex-direction: row;
     color: var(--fella-neutral-100);
-    transition: color 150ms ease, background-color 150ms ease;
+    transition: color 150ms ease, background-color 150ms ease !important;
 }
 
 .fella-footer-status:not(:hover) {

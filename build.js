@@ -1,7 +1,7 @@
 (async () => {
     const fs = require('fs');
     const csso = require('csso');
-    const files = fs.readdirSync("./src").filter(i => i.endsWith(".css"));
+    const files = fs.readdirSync("./src").filter(i => i.endsWith(".css")).reverse();
     const version = fs.readFileSync("./version.txt").toString().trim();
 
     let output = "@charset \"UTF-8\";\n\n/*!\n * Fella version " + version + "\n * Copyright Floofi Systems\n */\n\n";
