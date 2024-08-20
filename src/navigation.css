@@ -184,7 +184,7 @@
     color: var(--fella-text-secondary);
     font-size: .875rem;
     line-height: 1.25rem;
-    font-weight: 400;
+    font-weight: 500;
     display: flex;
     align-items: center;
 }
@@ -225,7 +225,7 @@
     margin-bottom: 2px;
     display: flex;
     align-items: center;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 20px;
     white-space: nowrap;
     color: var(--fella-text-main);
@@ -235,7 +235,7 @@
     font-size: .75rem;
     display: flex;
     align-items: center;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1rem;
     white-space: nowrap;
     color: var(--fella-text-secondary);

@@ -121,7 +121,7 @@
 
     .fella-nav-category-section-header, .fella-nav-category-section-item-text-title, .fella-nav-navigation-item {
         font-size: initial;
-        font-weight: initial;
+        font-weight: inherit;
     }
 
     .fella-nav-category-section, .fella-nav-items {

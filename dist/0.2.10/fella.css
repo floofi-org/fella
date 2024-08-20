@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /*!
- * Fella version 0.2.6
+ * Fella version 0.2.10
  * Copyright Floofi Systems
  */
 
@@ -13,7 +13,7 @@
 
 .fella-title {
     color: var(--fella-text-main);
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: -0.066875rem;
     line-height: 3.5rem;
     font-size: 2rem;
@@ -229,7 +229,7 @@
     color: var(--fella-text-secondary);
     font-size: .875rem;
     line-height: 1.25rem;
-    font-weight: 400;
+    font-weight: 500;
     display: flex;
     align-items: center;
 }
@@ -270,7 +270,7 @@
     margin-bottom: 2px;
     display: flex;
     align-items: center;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 20px;
     white-space: nowrap;
     color: var(--fella-text-main);
@@ -280,7 +280,7 @@
     font-size: .75rem;
     display: flex;
     align-items: center;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1rem;
     white-space: nowrap;
     color: var(--fella-text-secondary);
@@ -426,7 +426,7 @@
 
     .fella-nav-category-section-header, .fella-nav-category-section-item-text-title, .fella-nav-navigation-item {
         font-size: initial;
-        font-weight: initial;
+        font-weight: inherit;
     }
 
     .fella-nav-category-section, .fella-nav-items {
@@ -574,7 +574,7 @@
 
 .fella-hero-headline, .fella-headline {
     color: var(--fella-text-main);
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: -0.066875rem;
     line-height: 3.5rem;
     font-size: 3rem;
@@ -591,7 +591,7 @@
     margin-top: 30px;
     color: var(--fella-text-secondary);
     line-height: 2rem;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0;
     font-size: 1.25rem;
     text-wrap: balance;
@@ -647,14 +647,14 @@
     color: var(--fella-text-secondary);
     font-size: 16px;
     line-height: 24px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: -.32px;
     flex: 1;
     flex-basis: 100%;
 }
 
 .fella-hero-cta, .fella-cta {
-    font-weight: initial;
+    font-weight: inherit;
     letter-spacing: initial;
     margin-top: 30px;
     width: max-content;
@@ -662,7 +662,7 @@
 
 .fella-hero-cta-title {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 32px;
     letter-spacing: -.96px;
     text-wrap: balance;
@@ -672,7 +672,7 @@
 }
 
 .fella-hero-cta-title-focus, .fella-hero-cta-orgs-focus {
-    font-weight: 600;
+    font-weight: 700;
     color: var(--fella-text-main);
 }
 
@@ -743,9 +743,9 @@
 }
 
 .fella-header-btn {
-    height: 32px;
-    padding-left: 5px;
-    padding-right: 5px;
+    height: 32px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
     margin-left: 10px;
 }
 
@@ -768,7 +768,7 @@ select.fella-form-control, select.fella-form-control:hover, select.fella-form-co
     height: 40px;
     font: inherit;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 200;
     background-color: var(--fella-bg-secondary);
     border-radius: 6px;
     border: 1px solid transparent;
@@ -780,7 +780,7 @@ textarea.fella-form-control, textarea.fella-form-control:hover, textarea.fella-f
     padding: 9px 18px;
     font: inherit;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 200;
     background-color: var(--fella-bg-secondary);
     border-radius: 6px;
     border: 1px solid transparent;
@@ -858,7 +858,7 @@ select.fella-form-control:hover {
 .fella-footer-brand-copyright, .fella-footer-brand-version {
     color: var(--fella-text-secondary);
     font-size: 0.875rem;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.25rem;
 }
 
@@ -876,16 +876,16 @@ select.fella-form-control:hover {
     text-align: left;
     margin-right: auto;
     width: max-content;
-    padding: 8px;
+    padding: 8px !important;
     margin-left: -8px;
-    height: 18px;
-    box-shadow: none;
+    height: 18px !important;
+    box-shadow: none !important;
     display: flex;
     gap: 6px;
     align-items: center;
     flex-direction: row;
     color: var(--fella-neutral-100);
-    transition: color 150ms ease, background-color 150ms ease;
+    transition: color 150ms ease, background-color 150ms ease !important;
 }
 
 .fella-footer-status:not(:hover) {
@@ -904,7 +904,7 @@ select.fella-form-control:hover {
 .fella-footer-status-text {
     font-size: 0.875rem;
     line-height: 1.25rem;
-    font-weight: 300;
+    font-weight: 400;
     flex: 1;
 }
 
@@ -967,7 +967,7 @@ select.fella-form-control:hover {
 }
 
 .fella-footer-title {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
     margin: 12px 0;
 }
@@ -1037,7 +1037,7 @@ select.fella-form-control:hover {
 .fella-error-title {
     color: var(--fella-text-main);
     margin: 64px 0 8px;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: -0.066875rem;
     line-height: 3.5rem;
     font-size: 3rem;
@@ -1046,7 +1046,7 @@ select.fella-form-control:hover {
 .fella-error-message {
     font-size: 1rem;
     line-height: 1.5rem;
-    font-weight: 400;
+    font-weight: 500;
     margin: 12px 0;
     color: var(--fella-text-secondary);
     height: 48px;
@@ -1054,16 +1054,16 @@ select.fella-form-control:hover {
 
 /* core.css */
 @font-face {
-    src: url("../font.woff2");
-    font-family: "Geist Sans";
-    font-weight: 400;
+    src: url("../font-new.woff2");
+    font-family: "Red Hat Text";
+    font-weight: 500;
 }
 
 html, body {
     margin: 0;
     background-color: var(--fella-bg-main);
     color: var(--fella-text-main);
-    font-family: "Geist Sans", sans-serif;
+    font-family: "Red Hat Text", sans-serif;
     text-rendering: optimizeLegibility;
     user-drag: none;
     user-select: none;
@@ -1148,7 +1148,7 @@ blockquote {
     color: hsl(0 0 93%);
     font-size: 2rem;
     line-height: 2.5rem;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -1.28px;
 }
 
@@ -1156,7 +1156,7 @@ blockquote {
     color: hsl(0 0 63%);
     font-size: 1.125rem;
     line-height: 1.75rem;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 20px;
 }
 
@@ -1168,8 +1168,8 @@ blockquote {
 
 .fella-contact-grid-item-button {
     width: max-content;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 }
 
 .fella-contact-grid-secondary-button {
@@ -1181,11 +1181,11 @@ blockquote {
     color: hsl(0 0 63%);
     font-size: 1rem;
     line-height: 1.5rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .fella-contact-grid-item-secondary b {
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -0.32px;
     color: hsl(0 0 93%);
 }
@@ -1193,7 +1193,7 @@ blockquote {
 .fella-contact-title {
     font-size: 3.875rem;
     line-height: 1.25rem;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 .fella-contact-status {
@@ -1314,7 +1314,7 @@ blockquote {
     font-size: 20px;
     line-height: 130%;
     letter-spacing: -.4px;
-    font-weight: 600;
+    font-weight: 700;
     text-wrap: balance;
 }
 
@@ -1475,7 +1475,7 @@ blockquote {
 .fella-badge-label {
     color: var(--fella-text-tertiary);
     font-size: 0.875rem;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.25rem;
 }
 
@@ -1507,3 +1507,4 @@ blockquote {
     height: 20px;
     padding: 2px;
 }
+

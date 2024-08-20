@@ -1,14 +1,14 @@
 @font-face {
-    src: url("../font.woff2");
-    font-family: "Geist Sans";
-    font-weight: 400;
+    src: url("../font-new.woff2");
+    font-family: "Red Hat Text";
+    font-weight: 500;
 }
 
 html, body {
     margin: 0;
     background-color: var(--fella-bg-main);
     color: var(--fella-text-main);
-    font-family: "Geist Sans", sans-serif;
+    font-family: "Red Hat Text", sans-serif;
     text-rendering: optimizeLegibility;
     user-drag: none;
     user-select: none;

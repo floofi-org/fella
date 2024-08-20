@@ -25,7 +25,7 @@
     color: hsl(0 0 93%);
     font-size: 2rem;
     line-height: 2.5rem;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -1.28px;
 }
 
@@ -33,7 +33,7 @@
     color: hsl(0 0 63%);
     font-size: 1.125rem;
     line-height: 1.75rem;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 20px;
 }
 
@@ -58,11 +58,11 @@
     color: hsl(0 0 63%);
     font-size: 1rem;
     line-height: 1.5rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .fella-contact-grid-item-secondary b {
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -0.32px;
     color: hsl(0 0 93%);
 }
@@ -70,7 +70,7 @@
 .fella-contact-title {
     font-size: 3.875rem;
     line-height: 1.25rem;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 .fella-contact-status {

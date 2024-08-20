@@ -16,7 +16,7 @@ select.fella-form-control, select.fella-form-control:hover, select.fella-form-co
     height: 40px;
     font: inherit;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 200;
     background-color: var(--fella-bg-secondary);
     border-radius: 6px;
     border: 1px solid transparent;
@@ -28,7 +28,7 @@ textarea.fella-form-control, textarea.fella-form-control:hover, textarea.fella-f
     padding: 9px 18px;
     font: inherit;
     font-size: 15px;
-    font-weight: 100;
+    font-weight: 200;
     background-color: var(--fella-bg-secondary);
     border-radius: 6px;
     border: 1px solid transparent;
