@@ -80,3 +80,8 @@
     margin-right: 2px;
     width: 20px;
 }
+
+.fella-btn[disabled], .fella-btn.disabled {
+    opacity: .75;
+    pointer-events: none;
+}

@@ -87,7 +87,11 @@
         padding: 0 10px;
     }
 
-    .fella-nav-desktop .fella-nav-icon {
+    .fella-nav-desktop .fella-nav-right {
+        justify-content: center !important;
+    }
+
+    .fella-nav-desktop .fella-nav-icon, .fella-nav-desktop .fella-nav-icon-outer {
         display: none;
     }
 

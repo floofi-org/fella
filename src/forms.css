@@ -68,3 +68,8 @@ select.fella-form-control:hover {
     margin-top: 20px;
     display: block;
 }
+
+.fella-form-control[disabled], .fella-form-control.disabled {
+    opacity: .75;
+    pointer-events: none;
+}
