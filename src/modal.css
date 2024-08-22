@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box !important;
-}
-
 .fella-modal {
     position: fixed;
     z-index: 999;
