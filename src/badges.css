@@ -20,9 +20,9 @@
     height: 20px;
     padding: 0 6px;
     border-radius: 999px;
-    background-color: var(--fella-badge-notice-bg);
-    color: var(--fella-badge-notice-text);
-    display: flex;
+    background-color: rgba(var(--fella-badge-notice-rgb), .25);
+    color: rgb(var(--fella-badge-notice-rgb));
+    display: inline-flex;
     align-items: center;
 }
 

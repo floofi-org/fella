@@ -17,6 +17,7 @@
     height: 32px;
     padding-left: 12px;
     padding-right: 12px;
+    cursor: pointer;
 }
 
 .fella-btn-large {

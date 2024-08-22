@@ -17,8 +17,7 @@
     --fella-form-outline: #3d3d3d;
     --fella-form-border: #a0a0a0;
 
-    --fella-badge-notice-text: #52a8ff;
-    --fella-badge-notice-bg: #10233d;
+    --fella-badge-notice-rgb: 82,168,255;
 
     --fella-positive-rgb: 0, 114, 245;
     --fella-positive-0: rgba(var(--fella-positive-rgb), 0);

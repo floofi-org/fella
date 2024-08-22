@@ -17,7 +17,7 @@
         bottom: 0;
         height: auto;
         opacity: 0;
-        transition: box-shadow 150ms ease, top 150ms ease, opacity 150ms ease;
+        transition: box-shadow 350ms cubic-bezier(.4, 0, .2, 1), top 350ms cubic-bezier(.4, 0, .2, 1), opacity 350ms cubic-bezier(.4, 0, .2, 1);
     }
 
     .fella-nav-hamburger-container {

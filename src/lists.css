@@ -1,5 +1,6 @@
 .fella-list-item {
     border-bottom: 1px solid var(--fella-border-plain);
+    display: block;
 }
 
 .fella-list-item:nth-last-child(1) {

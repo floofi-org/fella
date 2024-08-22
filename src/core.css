@@ -64,3 +64,8 @@ blockquote {
 .fella-section.fella-section-linked a[href]:hover {
     opacity: .75;
 }
+
+.fella-text-small {
+    font-size: 14px;
+    font-weight: 300;
+}
