@@ -21,9 +21,10 @@
     fs.writeFileSync("./dist/" + version + "/fella.css", output);
 
     let minified = csso.minify(output, {
-        filename: 'fella.min.css', // will be added to source map as reference to source file
-        sourceMap: true             // generate source map
-    });;
+        filename: 'fella.min.css',
+        sourceMap: true
+    });
+
     fs.writeFileSync("./dist/" + version + "/fella.min.css", minified.css + "\n/*# sourceMappingURL=fella.min.css.map */");
     fs.writeFileSync("./dist/" + version + "/fella.min.css.map", minified.map.toString());
 
