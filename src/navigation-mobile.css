@@ -197,4 +197,16 @@
         transition: color 150ms ease, background-color 150ms ease;
         border-radius: 6px;
     }
+
+    .fella-nav-navigation-item {
+        padding: 0;
+    }
+
+    .fella-nav-navigation-item-link {
+        width: 100%;
+        padding: 0 12px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+    }
 }
