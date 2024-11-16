@@ -70,4 +70,12 @@
     --fella-neutral-brighter-2: rgb(var(--fella-neutral-brighter-2-rgb));
     --fella-neutral-brighter-2-33: rgb(var(--fella-neutral-brighter-2-rgb), .33);
     --fella-neutral-brighter-2-0: rgb(var(--fella-neutral-brighter-2-rgb), 0);
+
+    --fella-theme: rgb(63, 111, 116);
+    --fella-theme-rgb: 63, 111, 116;
+    --fella-theme-0: rgba(var(--fella-theme-rgb), 0);
+    --fella-theme-25: rgba(var(--fella-theme-rgb), .25);
+    --fella-theme-50: rgba(var(--fella-theme-rgb), .5);
+    --fella-theme-75: rgba(var(--fella-theme-rgb), .75);
+    --fella-theme-100: rgb(var(--fella-theme-rgb));
 }

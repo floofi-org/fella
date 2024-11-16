@@ -1,0 +1,34 @@
+@media (max-width: 1100px) {
+    .fella-sidebar-show .fella-sidebar {
+        display: none !important;
+    }
+
+    .fella-sidebar-show .fella-sidebar-next {
+        margin-left: 0 !important;
+    }
+
+    .fella-sidebar-show-mobile .fella-sidebar {
+        width: 100% !important;
+        display: block !important;
+    }
+
+    body:has(.fella-sidebar-show-mobile) {
+        overflow: hidden !important;
+    }
+
+    .fella-sidebar-button-hide {
+        display: none !important;
+    }
+
+    .fella-sidebar-button-show {
+        display: initial !important;
+    }
+
+    .fella-sidebar-show-mobile .fella-sidebar-button-hide {
+        display: initial !important;
+    }
+
+    .fella-sidebar-show-mobile .fella-sidebar-button-show {
+        display: none !important;
+    }
+}

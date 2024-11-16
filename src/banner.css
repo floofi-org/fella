@@ -1,0 +1,99 @@
+.fella-banner {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    background-image: var(--fella-theme);
+    position: relative;
+    overflow: hidden;
+}
+
+.fella-banner > .fella-container {
+    padding: 40px 80px;
+}
+
+.fella-banner-title {
+    margin-bottom: 12px;
+    margin-top: 0;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.fella-banner-subtitle {
+    font-weight: normal;
+    font-size: 21px;
+    color: var(--fella-text-secondary);
+    margin-bottom: 15px;
+    margin-top: 0;
+    line-height: 25px;
+}
+
+.fella-banner-tagline {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 21px;
+    line-height: 29px;
+}
+
+.fella-banner-descriptive {
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.fella-banner::before {
+    content: "";
+    background: linear-gradient(var(--fella-theme), color-mix(in srgb, var(--fella-theme), transparent 70%));
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.fella-banner::after {
+    background: var(--fella-bg-main);
+    opacity: .55;
+    width: 100%;
+    position: absolute;
+    content: "";
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.fella-banner-icon-container {
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 25px;
+    right: 0;
+    width: 250px;
+    height: calc(100% - 20px);
+}
+
+.fella-banner-icon-inner {
+    mix-blend-mode: screen;
+    opacity: .7;
+    display: block;
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    max-height: 100%;
+}
+
+.fella-banner-icon {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    fill: var(--fella-theme);
+    transform: scale(1.2);
+    overflow: visible;
+}
+
+.fella-banner-content {
+    position: relative;
+    z-index: 1;
+}
