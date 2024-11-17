@@ -1,0 +1,27 @@
+.fella-loader {
+    height: 32px;
+    width: 32px;
+}
+
+.fella-loader-container {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 64px);
+    background-color: var(--fella-bg-main);
+}
+
+.fella-loader-container.fella-loader-ajax {
+    background-color: transparent;
+}
+
+body:not(.fella-loaded):has(.fella-loader-container) {
+    overflow: hidden;
+}
+
+body.fella-loaded .fella-loader-container {
+    display: none;
+}
