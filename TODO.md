@@ -38,4 +38,43 @@
 
 ## Milestone 4: Development framework
 - [ ] Fellup UI design toolkit (kinda like Material Compose)
+  - YAML
+    - ```yaml
+      Navigation:
+          - id: "navbar"
+          - NavigationLeft:
+              - NavigationIcon:
+                  label: "Test Thing"
+                  target: "/"
+                  image: "/assets/logo.png"
+          - NavigationRight:
+              - NavigationSubtitle:
+                  - text: "Hello world"
+      ```
+  - XML (similar to React)
+    - ```xml
+      <Navigation id="navbar">
+          <NavigationLeft>
+              <NavigationIcon label="Test Thing" target="/" image="/assets/logo.png" />
+          </NavigationLeft>
+          <NavigationRight>
+              <NavigationSubtitle>Hello world</NavigationSubtitle>
+          </NavigationRight>
+      </Navigation>
+      ```
+  - Expected HTML output
+      - ```html
+        <nav id="navbar" class="fella-nav">
+            <div class="fella-nav-inner">
+                <div class="fella-nav-left">
+                    <a href="/" target="_blank">
+                        <img class="fella-nav-icon" alt="Test Thing" src="/assets/logo.png">
+                    </a>
+                </div>
+                <div class="fella-nav-right">
+                    <span class="fella-nav-subtitle">Hello world</span>
+                </div>
+            </div>
+        </nav>
+        ```
 - [ ] [Stack](https://vercel.com/geist/stack)
