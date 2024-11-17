@@ -37,21 +37,9 @@
 - [ ] [Context menu](https://vercel.com/geist/context-menu)
 
 ## Milestone 4: Development framework
+- [ ] [Stack](https://vercel.com/geist/stack)
 - [ ] Fellup UI design toolkit (kinda like Material Compose)
-  - YAML
-    - ```yaml
-      Navigation:
-          - id: "navbar"
-          - NavigationLeft:
-              - NavigationIcon:
-                  label: "Test Thing"
-                  target: "/"
-                  image: "/assets/logo.png"
-          - NavigationRight:
-              - NavigationSubtitle:
-                  - text: "Hello world"
-      ```
-  - XML (similar to React)
+  - HTML custom elements (similar to React)
     - ```xml
       <Navigation id="navbar">
           <NavigationLeft>
@@ -77,4 +65,3 @@
             </div>
         </nav>
         ```
-- [ ] [Stack](https://vercel.com/geist/stack)

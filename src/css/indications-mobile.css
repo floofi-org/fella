@@ -1,0 +1,14 @@
+@media (max-width: 1100px) {
+    .fella-indications-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+    .fella-indications-card {
+        display: block;
+        width: 292px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

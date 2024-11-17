@@ -1,7 +1,4 @@
 node_modules
 dist/.vercel
-dev.js
-dev.html
-dev.png
-dist/dev.css
-dist/dev.js
+dev*
+dist/dev*
