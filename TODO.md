@@ -2,6 +2,7 @@
 
 ## Milestone 1: Floofi Crature Interface Guidelines
 - [x] <s>Instruction cards (Do Not [red], Caution [orange], Do [blue])</s>
+- [ ] Component demo
 - [ ] [Pagination](https://vercel.com/geist/pagination)
 - [ ] [Code block](https://vercel.com/geist/code-block) (with multiple languages)
 - [ ] [Snippet](https://vercel.com/geist/snippet)
