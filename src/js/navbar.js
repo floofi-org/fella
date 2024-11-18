@@ -13,11 +13,11 @@ window.updateScroll = () => {
         }
     }
 
-    if (g("mobile-navbar") && !g("navbar").classList.contains("fella-nav-fixed")) {
+    if (g("mobile-navbar") && !g("mobile-navbar").classList.contains("fella-nav-fixed")) {
         if (window.scrollY === 0) {
-            g("navbar").classList.add("fella-nav-no-border");
+            g("mobile-navbar").classList.add("fella-nav-no-border");
         } else {
-            g("navbar").classList.remove("fella-nav-no-border");
+            g("mobile-navbar").classList.remove("fella-nav-no-border");
         }
     }
 
