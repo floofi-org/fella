@@ -1,7 +1,7 @@
 # Fella roadmap
 
 ## Milestone 1: Floofi Crature Interface Guidelines
-- [ ] Instruction cards (Do Not [red], Caution [orange], Do [blue])
+- [x] <s>Instruction cards (Do Not [red], Caution [orange], Do [blue])</s>
 - [ ] [Pagination](https://vercel.com/geist/pagination)
 - [ ] [Code block](https://vercel.com/geist/code-block) (with multiple languages)
 - [ ] [Snippet](https://vercel.com/geist/snippet)
