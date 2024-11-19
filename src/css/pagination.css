@@ -1,0 +1,67 @@
+.fella-pagination-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fella-pagination-left {
+    padding-right: 8px;
+    padding-left: 28px;
+    cursor: pointer;
+}
+
+.fella-pagination-right {
+    padding-left: 8px;
+    padding-right: 28px;
+    justify-self: end;
+    cursor: pointer;
+}
+
+.fella-pagination-header {
+    margin-bottom: 2px;
+    font-weight: 400;
+    line-height: 1.125rem;
+    font-size: 0.8125rem;
+    color: var(--fella-text-secondary);
+}
+
+.fella-pagination-inner {
+    position: relative;
+    display: flex;
+}
+
+.fella-pagination-description {
+    color: var(--fella-text-main);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.fella-pagination-right-icon {
+    position: absolute;
+    margin-top: 2px;
+    right: -26px;
+    color: var(--fella-text-secondary);
+}
+
+.fella-pagination-left-icon {
+    position: absolute;
+    margin-top: 2px;
+    left: -26px;
+    color: var(--fella-text-secondary);
+}
+
+.fella-pagination-icon-svg {
+    width: 20px;
+    height: 20px;
+    color: currentcolor;
+    stroke-linejoin: round;
+}
+
+.fella-pagination-left:hover .fella-pagination-left-icon, .fella-pagination-right:hover .fella-pagination-right-icon,
+.fella-pagination-left:hover .fella-pagination-header, .fella-pagination-right:hover .fella-pagination-header {
+    color: var(--fella-text-main);
+}
+
+.fella-pagination-left-icon, .fella-pagination-right-icon, .fella-pagination-header {
+    transition: color 200ms;
+}

@@ -1,0 +1,72 @@
+.fella-code-block .line {
+    padding: 0 20px;
+}
+
+.fella-code-block {
+    counter-reset: line;
+    border-radius: 6px;
+    background-color: var(--fella-bg-secondary);
+    padding: 20px 0;
+    border: 1px solid var(--fella-border-plain);
+    margin: 20px 0;
+}
+
+.fella-code-block .line::before {
+    content: counter(line) /"";
+    counter-increment: line;
+    width: 16px;
+    font-size: 13px;
+    color: var(--fella-text-tertiary);
+    font-family: Iosevka, monospace;
+    text-align: right;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.fella-code-block .line {
+    line-height: 20px;
+}
+
+.hljs-keyword {
+    color: rgb(249, 117, 131);
+}
+
+.hljs-name, .hljs-number {
+    color: rgb(121, 184, 255);
+}
+
+.hljs-title.class_ {
+    color: rgb(133, 232, 157);
+}
+
+.hljs-attr, .hljs-variable:not(.constant_), .hljs-property, .hljs-title.function_ {
+    color: rgb(179, 146, 240);
+}
+
+.hljs-string {
+    color: rgb(158, 203, 255);
+}
+
+.fella-code-block-titled {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top: 0;
+    margin-top: 0;
+}
+
+.fella-code-block-header {
+    margin-top: 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid var(--fella-border-plain);
+    padding: 0 12px 0 16px;
+    background-color: var(--fella-bg-main);
+    display: flex;
+    height: 48px;
+    align-items: center;
+    color: var(--fella-text-secondary);
+}
+
+.fella-code-block-filename {
+    font-size: 13px;
+}
