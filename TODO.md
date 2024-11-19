@@ -7,6 +7,7 @@
 - [x] <s>[Code block](https://vercel.com/geist/code-block) (with multiple languages)</s>
 - [ ] [Snippet](https://vercel.com/geist/snippet)
 - [ ] [Tabs](https://vercel.com/geist/tabs)
+- [ ] [Colors](https://vercel.com/geist/colors)
 - [ ] [Note](https://vercel.com/geist/note)
 - [ ] [Keyboard input](https://vercel.com/geist/keyboard-input)
 - [ ] [Table](https://vercel.com/geist/table)
