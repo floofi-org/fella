@@ -65,8 +65,73 @@
     height: 48px;
     align-items: center;
     color: var(--fella-text-secondary);
+    font-size: 13px;
 }
 
-.fella-code-block-filename {
+.fella-code-block-multilanguage .fella-code-block-language:not(.fella-code-block-selected), .fella-code-block-multilanguage .fella-code-block-filename:not(.fella-code-block-selected) {
+    display: none;
+}
+
+.fella-code-block-header {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+}
+
+.fella-code-block-selector {
+    border: none;
+    border-radius: 5px;
     font-size: 13px;
+    display: flex;
+    padding: 0 30px 0 8px;
+    align-items: center;
+    line-height: 1;
+    transition: background-color .2s,color .2s;
+    cursor: pointer;
+    color: var(--fella-text-secondary);
+    white-space: nowrap;
+    background-color: var(--fella-bg-main);
+    height: 32px;
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg' style='stroke-linecap:round;stroke-linejoin:round;'><path d='M6,9L12,15L18,9' style='fill:transparent;stroke:hsl(0,0%,63%);stroke-width:1.5px;'/></svg>");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) center !important;
+    background-size: 18px;
+    -moz-appearance:none !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+}
+
+.fella-code-block-selector:hover, .fella-code-block-selector:focus {
+    background-color: var(--fella-bg-secondary-dim);
+}
+
+.fella-code-block-copy {
+    float: right;
+    margin-right: 16px;
+    margin-top: 16px;
+    background-color: var(--fella-bg-main);
+    border-radius: 5px;
+    transition: opacity .1s,background-color .2s;
+    border: 1px solid var(--fella-border-bold);
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--fella-text-secondary);
+    opacity: 0;
+}
+
+.fella-code-block-language:hover .fella-code-block-copy {
+    opacity: 1;
+}
+
+.fella-code-block-copy svg {
+    width: 16px;
+    height: 16px;
+}
+
+.fella-code-block-copy:hover {
+    background-color: var(--fella-bg-secondary-dim);
 }
