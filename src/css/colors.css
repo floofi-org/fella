@@ -1,5 +1,7 @@
 :root {
     --fella-bg-main: #000;
+    --fella-bg-main-transparent: #00000055;
+    --fella-bg-main-transparent-2: #000000cc;
     --fella-bg-secondary: #0a0a0a;
     --fella-bg-secondary-dim: #1f1f1f;
     --fella-text-main: #ededed;

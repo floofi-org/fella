@@ -1,4 +1,4 @@
-if (localStorage.getItem("fella-sidebar") === "false") {
+if ((localStorage.getItem("fella-sidebar") === "false" && window.innerWidth > 1100) || localStorage.getItem("fella-sidebar") === "true" && window.innerWidth <= 1100) {
     window.addEventListener('load', () => {
         window.toggleSidebar();
     });

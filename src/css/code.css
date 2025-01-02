@@ -9,6 +9,7 @@
     padding: 20px 0;
     border: 1px solid var(--fella-border-plain);
     margin: 20px 0;
+    overflow-y: scroll;
 }
 
 .fella-code-block .line::before {
@@ -107,7 +108,7 @@
 .fella-code-block-copy {
     float: right;
     margin-right: 16px;
-    margin-top: 16px;
+    margin-top: -70px;
     background-color: var(--fella-bg-main);
     border-radius: 5px;
     transition: opacity .1s,background-color .2s;
@@ -134,4 +135,8 @@
 
 .fella-code-block-copy:hover {
     background-color: var(--fella-bg-secondary-dim);
+}
+
+.fella-code-block-copy-container {
+    position: absolute;
 }

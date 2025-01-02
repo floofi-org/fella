@@ -10,12 +10,6 @@ html, body {
     color: var(--fella-text-main);
     font-family: "Red Hat Text", sans-serif;
     text-rendering: optimizeLegibility;
-    /*user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;*/
 }
 
 blockquote {

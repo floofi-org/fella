@@ -1,0 +1,20 @@
+body.fella-visual-effects .fella-nav {
+    backdrop-filter: blur(10px);
+    background-color: var(--fella-bg-main-transparent);
+}
+
+@media (max-width: 900px) {
+    body.fella-visual-effects .fella-sidebar {
+        backdrop-filter: blur(10px);
+        background-color: var(--fella-bg-main-transparent-2);
+    }
+}
+
+body.fella-visual-effects .fella-modal {
+    background-color: var(--fella-bg-main-transparent);
+    transition: opacity .35s cubic-bezier(.4,0,.2,1), backdrop-filter .35s cubic-bezier(.4,0,.2,1);
+}
+
+body.fella-visual-effects .fella-modal.show {
+    backdrop-filter: blur(10px);
+}
